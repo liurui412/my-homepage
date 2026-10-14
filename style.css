@@ -35,7 +35,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #426f19; outline-offs
 
 .hero { min-height: 605px; padding-block: 88px 72px; display: grid; grid-template-columns: 1.25fr .75fr; align-items: center; gap: 3rem; position: relative; }
 .hero-copy { max-width: 660px; }
-.eyebrow, .card-kicker, .project-meta, .note-top, .hero-index, .skill-level, .placeholder-note { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .03em; }
+.eyebrow, .card-kicker, .project-meta, .note-top, .hero-index, .skill-level { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .03em; }
 .eyebrow { display: flex; align-items: center; gap: .6rem; margin: 0 0 1.3rem; color: var(--muted); }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; background: #78a831; box-shadow: 0 0 0 4px rgb(120 168 49 / 14%); }
 h1, h2, h3, p { margin-top: 0; }
@@ -111,7 +111,6 @@ h2 { margin-bottom: 0; font-size: clamp(2.3rem, 4.5vw, 4.1rem); line-height: 1.2
 .contact-copy { max-width: 400px; padding-bottom: .35rem; }
 .contact-copy > p:first-child { color: #3d4933; }
 .email-link { display: inline-flex; align-items: center; gap: .8rem; margin-top: .7rem; font-size: 1.2rem; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 5px; }
-.placeholder-note { margin: .8rem 0 0; color: #50613a; font-size: .63rem; }
 .contact-bottom { min-height: 58px; border-top: 1px solid rgb(32 37 35 / 20%); display: flex; justify-content: space-between; align-items: center; font-size: .78rem; font-weight: 600; }
 .contact-bottom a { text-decoration: none; }
 .site-footer { background: var(--ink); color: #dce2dc; }
